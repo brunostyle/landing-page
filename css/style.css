@@ -343,7 +343,6 @@ img {
     background: var(--first-color);
     padding: 2em;
     clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
-
 }
 
 .facts__content {
@@ -354,9 +353,10 @@ img {
 
 .facts__data {
     text-align: center;
-    padding: 0 var(--mb-4);
+    padding: 0 var(--mb-3);
     background: var(--first-color);
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    white-space: nowrap;
 }
 
 /*========== CONTACT ==========*/
